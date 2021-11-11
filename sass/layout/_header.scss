@@ -32,6 +32,10 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .current.menu-link::after {
@@ -43,11 +47,6 @@
   border-radius: 2px;
   background-color: var(--accent-color);
   bottom: -31.4px;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-color);
 }
 
 .auth-menu {
@@ -66,15 +65,14 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .auth-tel {
   margin-left: 50px;
-}
-
-.auth-link:hover,
-.auth-link:focus {
-  color: var(--accent-color);
 }
 
 .auth-link-icon {

@@ -6,6 +6,10 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--icon-black-color);
+
+  .logo-item {
+    color: var(--accent-color);
+  }
 }
 
 .logo-footer {
@@ -15,9 +19,9 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--icon-white-color) ;
-}
+  color: var(--icon-white-color);
 
-.logo-item {
-  color: #2196f3;
+  .logo-item {
+    color: var(--accent-color);
+  }
 }
