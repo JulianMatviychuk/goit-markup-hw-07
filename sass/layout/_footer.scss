@@ -6,11 +6,11 @@
   margin-right: auto;
 }
 
-.footer-block {
+.footer__block {
   display: flex;
 }
 
-.footer-address {
+.footer__street {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -20,7 +20,7 @@
   margin-top: 20px;
 }
 
-.footer-web {
+.footer__web {
   display: block;
   font-style: normal;
   font-weight: normal;
@@ -39,7 +39,7 @@
   }
 }
 
-.footer-tel {
+.footer__tel {
   display: block;
   font-style: normal;
   font-weight: normal;
@@ -56,13 +56,13 @@
   }
 }
 
-.footer-social {
+.social--footer {
   width: 206px;
   margin: 12px auto 40px 70px;
 }
 
-.footer-social-text,
-.footer-sign-text {
+.social__text--footer,
+.sign__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -72,15 +72,15 @@
   margin-bottom: 20px;
 }
 
-.footer-sign-text {
+.sign__text {
   margin-top: 12px;
 }
 
-.footer-sign-form {
+.sign__form {
   display: flex;
 }
 
-.footer-sign-input {
+.sign__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
@@ -99,7 +99,7 @@
   }
 }
 
-.footer-sign-button {
+.sign__button {
   display: flex;
   justify-content: center;
   min-width: 200px;
@@ -120,7 +120,7 @@
   margin-left: 12px;
 }
 
-.footer-sign-form-icon {
+.sign__icon {
   margin-left: 10px;
   fill: var(--white-title-color);
 }

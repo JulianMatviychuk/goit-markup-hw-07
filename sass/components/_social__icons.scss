@@ -1,12 +1,12 @@
 //team
 
-.team-social-menu {
+.social--team {
   display: flex;
   padding: 0px 32px 30px 32px;
   justify-content: space-between;
 }
 
-.team-social-link {
+.social__link--team {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   }
 }
 
-.team-social-icon {
+.social__icon--team {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,12 +34,12 @@
 
 //footer
 
-.footer-social-menu {
+.social__menu--footer {
   display: flex;
   justify-content: space-between;
 }
 
-.footer-social-link {
+.social__link--footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,7 @@
   }
 }
 
-.footer-social-icon {
+.social__icon--footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

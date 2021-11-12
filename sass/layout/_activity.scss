@@ -1,20 +1,20 @@
-.activity-menu {
+.activity__menu {
   display: flex;
   justify-content: space-between;
 }
 
-.activity-item {
+.activity__item {
   position: relative;
 }
 
-.activity-label {
+.activity__label {
   position: absolute;
   width: 100%;
   height: 70px;
   bottom: 0;
 }
 
-.activity-text {
+.activity__text {
   background: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;

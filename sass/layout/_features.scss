@@ -1,4 +1,4 @@
-.features-bg {
+.features__bg {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
@@ -10,16 +10,16 @@
   padding-top: 94px;
 }
 
-.features-menu {
+.features__menu {
   display: flex;
   justify-content: space-between;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
 
-.features-title {
+.features__title {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -30,7 +30,7 @@
   margin-bottom: 10px;
 }
 
-.features-text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

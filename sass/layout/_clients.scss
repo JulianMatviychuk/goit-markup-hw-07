@@ -1,9 +1,9 @@
-.clients-menu {
+.clients__menu {
   display: flex;
   justify-content: space-between;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   }
 }
 
-.clients-icon {
+.clients__icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
